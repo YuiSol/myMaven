@@ -1,0 +1,1882 @@
+2017-07-29 18:54:36,072 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 18:54:36,074 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 18:54:36,416 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1954198426_0001
+sjava.lang.Exception: java.lang.ClassCastException: org.apache.hadoop.io.LongWritable cannot be cast to org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: org.apache.hadoop.io.LongWritable cannot be cast to org.apache.hadoop.io.IntWritable
+	at arrangement.WordCountMapper1.map(WordCountMapper1.java:12)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-29 18:56:35,403 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 18:56:35,405 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 18:59:33,091 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 18:59:33,092 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 18:59:33,431 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local543262014_0001
+sjava.lang.Exception: java.lang.ClassCastException: org.apache.hadoop.io.LongWritable cannot be cast to org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: org.apache.hadoop.io.LongWritable cannot be cast to org.apache.hadoop.io.IntWritable
+	at arrangement.WordCountMapper1.map(WordCountMapper1.java:13)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-29 19:03:22,005 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:03:22,010 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:04:54,371 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:04:54,372 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:05:39,426 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:05:39,427 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:07:56,673 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:07:56,674 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:09:13,126 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:09:13,127 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:11:00,759 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:11:00,761 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:11:39,084 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:11:39,086 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:12:58,585 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:12:58,587 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:13:23,851 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:13:23,852 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:13:41,930 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:13:41,932 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:13:56,233 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:13:56,235 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:14:57,263 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:14:57,264 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:19:24,068 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:19:24,070 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:19:24,372 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local579666956_0001
+sjava.lang.Exception: java.lang.NumberFormatException: For input string: "1363157985066 "
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NumberFormatException: For input string: "1363157985066 "
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:583)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at arrangement.WordCountMapper1.map(WordCountMapper1.java:17)
+	at arrangement.WordCountMapper1.map(WordCountMapper1.java:13)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-29 19:26:07,563 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:26:07,565 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:26:27,165 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:26:27,166 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:26:27,555 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1387552460_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.<init>(String.java:491)
+	at arrangement.WordCountReducer1.reduce(WordCountReducer1.java:27)
+	at arrangement.WordCountReducer1.reduce(WordCountReducer1.java:12)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-29 19:35:22,182 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:35:22,183 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:39:41,432 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:39:41,433 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-29 19:39:53,342 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-29 19:39:53,343 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 13:57:15,108 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 13:57:15,122 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 19:33:21,325 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 19:33:21,327 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 19:33:21,655 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-30 19:33:21,658 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local958801032_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-30 19:45:53,460 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 19:45:53,462 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 19:45:53,891 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1110068251_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:31)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-30 19:46:45,802 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 19:46:45,804 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 19:46:46,181 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1869409041_0001
+sjava.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1069)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at wordstatistics.WordMapper.map(WordMapper.java:41)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-30 19:48:26,197 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 19:48:26,198 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-30 19:48:26,534 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local657154349_0001
+sjava.lang.Exception: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in key from map: expected org.apache.hadoop.io.Text, received org.apache.hadoop.io.IntWritable
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1069)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at wordstatistics.WordMapper.map(WordMapper.java:44)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-30 19:52:52,232 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-30 19:52:52,234 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 09:48:35,946 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 09:48:35,970 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 09:48:36,719 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local790998154_0001
+sjava.lang.Exception: java.lang.RuntimeException: java.io.EOFException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.RuntimeException: java.io.EOFException
+	at org.apache.hadoop.io.WritableComparator.compare(WritableComparator.java:164)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.compare(MapTask.java:1265)
+	at org.apache.hadoop.util.QuickSort.fix(QuickSort.java:35)
+	at org.apache.hadoop.util.QuickSort.sortInternal(QuickSort.java:87)
+	at org.apache.hadoop.util.QuickSort.sort(QuickSort.java:63)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.sortAndSpill(MapTask.java:1593)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.flush(MapTask.java:1482)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.close(MapTask.java:720)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:790)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at wordstatistics.Map1.readFields(Map1.java:65)
+	at org.apache.hadoop.io.WritableComparator.compare(WritableComparator.java:158)
+	... 15 more
+2017-07-31 09:50:56,910 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 09:50:56,912 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 09:53:34,961 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 09:53:34,962 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 09:57:24,781 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 09:57:24,782 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 10:00:47,375 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 10:00:47,376 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 10:02:40,020 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 10:02:40,021 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 10:50:44,048 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 10:50:44,050 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 10:50:50,555 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1593804758_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:34)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:04:54,726 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:04:54,727 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:04:57,795 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1446717199_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:34)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:05:22,299 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:05:22,301 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:05:25,366 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1759239067_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:35)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:06:24,369 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:06:24,371 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:07:14,779 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:07:14,781 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:07:17,706 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local678096051_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:34)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:07:49,579 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:07:49,581 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:07:52,573 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1049347891_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:34)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:10:41,145 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:10:41,146 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:10:44,172 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1583851395_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:35)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:11:49,648 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:11:49,650 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:11:52,621 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1609624659_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:35)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:12:25,780 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:12:25,781 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:12:28,776 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local984444477_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:36)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:13:12,219 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:13:12,221 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:13:15,377 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local263928681_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:37)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:13:52,482 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:13:52,484 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:13:55,578 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2054604713_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at wordstatistics.WordMapper.map(WordMapper.java:37)
+	at wordstatistics.WordMapper.map(WordMapper.java:14)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-07-31 11:14:28,597 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:14:28,598 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:15:14,460 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:15:14,461 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:16:03,990 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:16:03,991 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:16:45,744 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:16:45,746 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:17:05,702 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:17:05,704 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:17:29,049 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:17:29,051 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:17:42,951 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:17:42,953 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 11:59:48,181 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 11:59:48,183 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 12:00:33,236 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 12:00:33,238 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 12:01:56,501 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 12:01:56,503 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 12:04:34,022 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 12:04:34,024 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 13:27:50,722 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 13:27:50,723 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 13:36:52,818 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 13:36:52,819 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 14:27:14,310 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 14:27:14,311 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 15:44:50,347 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 15:44:50,348 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 15:47:57,700 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 15:47:57,703 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 15:50:54,113 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 15:50:54,114 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 15:51:06,526 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 15:51:06,527 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 15:51:29,607 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 15:51:29,609 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:02:41,634 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:02:41,635 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:25:55,409 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:25:55,410 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:32:32,349 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:32:32,351 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:35:48,582 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:35:48,584 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:47:10,360 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:47:10,361 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:47:33,295 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:47:33,296 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:49:37,978 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:49:37,980 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 16:51:27,250 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 16:51:27,252 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 17:43:08,050 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 17:43:08,051 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 17:55:44,756 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 17:55:44,757 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 18:12:12,604 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 18:12:12,606 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 18:13:13,705 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 18:13:13,707 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 18:34:27,561 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-07-31 18:34:27,562 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-07-31 19:32:44,516 FATAL [org.apache.hadoop.conf.Configuration] - error parsing conf yarn-default.xml
+sorg.xml.sax.SAXParseException; Premature end of file.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:150)
+	at org.apache.hadoop.conf.Configuration.parse(Configuration.java:2432)
+	at org.apache.hadoop.conf.Configuration.parse(Configuration.java:2420)
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:2491)
+	at org.apache.hadoop.conf.Configuration.loadResources(Configuration.java:2444)
+	at org.apache.hadoop.conf.Configuration.getProps(Configuration.java:2361)
+	at org.apache.hadoop.conf.Configuration.get(Configuration.java:968)
+	at org.apache.hadoop.mapred.JobConf.checkAndWarnDeprecation(JobConf.java:2010)
+	at org.apache.hadoop.mapred.JobConf.<init>(JobConf.java:449)
+	at org.apache.hadoop.mapreduce.Job.getInstance(Job.java:187)
+	at wordstatistics.WordActive.main(WordActive.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:140)
+2017-08-01 18:50:32,166 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 18:51:04,614 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 18:51:04,616 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:53:10,588 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:53:10,589 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:54:10,170 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:54:10,172 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:54:10,498 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1173901872_0001
+sjava.lang.Exception: java.lang.ArrayIndexOutOfBoundsException: 8
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 8
+	at phoneData.analysis.analysis1.PhoneMapper.map(PhoneMapper.java:16)
+	at phoneData.analysis.analysis1.PhoneMapper.map(PhoneMapper.java:12)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 20:54:33,539 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:54:33,541 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:54:33,842 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1132437046_0001
+sjava.lang.Exception: java.lang.ArrayIndexOutOfBoundsException: 8
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 8
+	at phoneData.analysis.analysis1.PhoneMapper.map(PhoneMapper.java:17)
+	at phoneData.analysis.analysis1.PhoneMapper.map(PhoneMapper.java:12)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 20:54:51,191 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:54:51,193 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:55:55,241 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:55:55,242 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:56:40,822 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:56:40,824 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:56:53,438 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:56:53,440 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:57:06,918 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:57:06,920 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:58:54,185 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 20:58:54,187 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 20:58:54,584 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local274015977_0001
+sjava.lang.Exception: java.lang.ClassCastException: org.apache.hadoop.io.Text cannot be cast to org.apache.hadoop.io.LongWritable
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ClassCastException: org.apache.hadoop.io.Text cannot be cast to org.apache.hadoop.io.LongWritable
+	at phoneData.analysis.analysis2.MyParitioner.getPartition(MyParitioner.java:10)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:36)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:03:36,872 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:03:36,874 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:03:37,466 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1094556410_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:36)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:05:15,851 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:05:15,853 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:05:16,207 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1280982970_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:37)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:05:46,072 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:05:46,074 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:05:46,394 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1072225349_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-0 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:37)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:06:07,048 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:06:07,051 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:06:07,518 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2069504884_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:36)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:06:51,671 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:06:51,673 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:06:52,413 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local745253846_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:37)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:07:30,359 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:07:30,361 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:07:30,790 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1233359167_0001
+sjava.lang.Exception: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Illegal partition for 国际漫游2015-04 (-1)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1079)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:38)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisMapper.map(Analysis1.java:32)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:10:28,200 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:10:28,203 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:10:30,697 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2129327816_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:14:22,784 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:14:22,786 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:14:25,345 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local980519507_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:15:27,803 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:15:27,806 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:15:29,804 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1396286596_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:17:06,461 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:17:06,463 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:17:08,604 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local853956567_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:18:02,394 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:18:02,395 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:18:04,443 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1305980021_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:21:20,856 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:21:20,858 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:21:22,744 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local182972787_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:21:38,956 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:21:38,958 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:21:40,721 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1278586909_0001
+sjava.lang.Exception: java.util.IllegalFormatConversionException: f != java.lang.Integer
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.IllegalFormatConversionException: f != java.lang.Integer
+	at java.util.Formatter$FormatSpecifier.failConversion(Formatter.java:4302)
+	at java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2806)
+	at java.util.Formatter$FormatSpecifier.print(Formatter.java:2753)
+	at java.util.Formatter.format(Formatter.java:2520)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:22:33,100 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:22:33,101 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:22:35,476 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1243239824_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:53)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:23:34,185 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:23:34,186 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:23:36,009 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1858022547_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:54)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:23:52,430 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:23:52,431 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:23:54,548 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local339941715_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:42:23,096 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:42:23,098 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:42:24,738 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1893821455_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:57)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:42:53,116 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:42:53,119 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:42:55,042 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1992579008_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:43:28,265 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:43:28,267 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:43:29,891 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1914342453_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:43:57,241 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:43:57,243 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:43:59,229 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2064031218_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:44:42,271 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:44:42,273 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:44:44,133 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local457014986_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:45:01,677 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:45:01,679 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:45:03,311 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local126850780_0001
+sjava.lang.Exception: java.util.UnknownFormatConversionException: Conversion = '%'
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.UnknownFormatConversionException: Conversion = '%'
+	at java.util.Formatter.checkText(Formatter.java:2579)
+	at java.util.Formatter.parse(Formatter.java:2565)
+	at java.util.Formatter.format(Formatter.java:2501)
+	at java.util.Formatter.format(Formatter.java:2455)
+	at java.lang.String.format(String.java:2940)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:55)
+	at phoneData.analysis.analysis2.Analysis1$AnalysisReducer.reduce(Analysis1.java:41)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-01 21:45:14,540 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:45:14,542 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:57:59,019 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:57:59,021 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:58:16,369 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:58:16,371 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 21:58:55,528 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 21:58:55,531 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:17:58,801 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:17:58,802 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:19:14,658 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:19:14,659 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:19:53,993 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:19:53,995 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:20:05,042 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:20:05,044 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:22:10,699 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:22:10,701 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:22:48,053 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:22:48,055 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:23:22,200 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:23:22,201 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:25:43,608 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:25:43,610 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:26:43,819 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:26:43,821 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-01 22:27:02,829 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-01 22:27:02,830 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:47:12,148 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:47:12,165 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:47:12,815 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1674645922_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.Text.encode(Text.java:450)
+	at org.apache.hadoop.io.Text.set(Text.java:198)
+	at org.apache.hadoop.io.Text.<init>(Text.java:88)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:82)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:49)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 19:49:13,243 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:49:13,245 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:49:13,670 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local394712888_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.Text.encode(Text.java:450)
+	at org.apache.hadoop.io.Text.set(Text.java:198)
+	at org.apache.hadoop.io.Text.<init>(Text.java:88)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:83)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:50)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 19:49:42,820 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:49:42,822 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:49:43,254 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1105540489_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.Text.encode(Text.java:450)
+	at org.apache.hadoop.io.Text.set(Text.java:198)
+	at org.apache.hadoop.io.Text.<init>(Text.java:88)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:83)
+	at databases.join.DataJoin$MyMapper.map(DataJoin.java:50)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 19:50:28,801 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:50:28,803 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:55:14,336 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:55:14,338 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:55:51,888 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:55:51,890 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 19:57:35,232 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 19:57:35,234 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:01:15,126 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:01:15,128 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:02:26,531 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:02:26,533 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:03:09,017 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:03:09,018 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:03:55,910 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:03:55,911 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:05:24,639 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:05:24,640 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:06:46,625 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:06:46,627 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:11:57,389 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:11:57,390 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:12:34,488 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:12:34,490 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:12:35,066 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1807089899_0001
+sjava.lang.Exception: java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 4
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:121)
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:92)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 20:13:21,040 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:13:21,042 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:13:21,636 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1355917733_0001
+sjava.lang.Exception: java.lang.ArrayIndexOutOfBoundsException: 4
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 4
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:121)
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:92)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 20:13:52,171 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:13:52,173 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:14:44,748 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:14:44,750 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:15:35,516 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:15:35,518 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:16:09,731 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:16:09,733 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:18:40,118 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:18:40,119 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:19:19,691 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:19:19,692 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:20:36,499 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:20:36,500 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:21:08,630 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:21:08,632 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:22:43,811 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:22:43,813 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:23:09,144 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:23:09,146 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:23:36,303 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:23:36,305 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:26:45,942 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:26:45,944 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:26:53,591 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:26:53,593 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:27:52,375 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:27:52,377 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:29:28,921 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:29:28,923 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:29:44,879 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:29:44,881 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:34:32,523 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:34:32,525 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-02 20:34:33,111 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1948445678_0001
+sjava.lang.Exception: java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 2, Size: 2
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:122)
+	at databases.join.DataJoin$MyReducer.reduce(DataJoin.java:92)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-02 20:35:17,657 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-02 20:35:17,659 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-04 14:15:23,928 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:00:41,946 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:20)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:32)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:01:35,139 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:20)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:32)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:02:30,362 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:20)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:32)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:03:31,241 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:21)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:33)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:03:51,810 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:22)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:34)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-04 18:04:32,742 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.setList(MyWacher.java:22)
+	at ZooKeeper.listener.demo1.Server.init(Server.java:36)
+	at ZooKeeper.listener.demo1.Server.<init>(Server.java:50)
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:34)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-05 09:08:37,170 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:09:47,023 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:09:47,774 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:09:57,879 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:11:58,741 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:12:59,458 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:17,893 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:17,927 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:18,053 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:18,678 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:19,752 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:19,761 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:19,812 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:20,107 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:22,036 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:22,319 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:22,639 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:22,882 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:23,666 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:23,740 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:24,058 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:24,555 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:24,848 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:24,998 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:25,396 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:26,575 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:27,055 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:27,865 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:28,046 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:28,719 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:29,272 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:29,329 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:29,915 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:30,416 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:30,625 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:30,685 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:31,775 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:32,155 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:32,728 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:32,833 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:34,098 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:34,279 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:34,596 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:34,678 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:35,689 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:35,837 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:36,098 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:36,148 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:37,263 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:37,905 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:38,285 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:38,731 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:39,891 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:39,971 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:40,394 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:40,863 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:41,395 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:41,452 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:42,117 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:42,162 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:43,288 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:43,747 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:44,551 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:45,106 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:45,947 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:46,233 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:46,749 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:46,807 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:47,368 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:47,369 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:47,943 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:48,533 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:49,455 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:49,550 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:49,620 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:50,805 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:50,874 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:52,090 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:52,360 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:52,625 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440008 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:52,757 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf951440009 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:53,698 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000b for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:15:53,714 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15daaf95144000a for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 09:39:30,922 ERROR [org.apache.zookeeper.ClientCnxn] - Error while calling watcher 
+sjava.lang.NullPointerException
+	at ZooKeeper.listener.demo1.MyWacher.process(MyWacher.java:35)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:522)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2017-08-05 13:41:23,584 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15dab0c8c2c0023 for server 192.168.1.81/192.168.1.81:2181, unexpected error, closing socket connection and attempting reconnect
+sjava.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-05 13:41:23,586 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x35dab0cab850028 for server 192.168.1.83/192.168.1.83:2181, unexpected error, closing socket connection and attempting reconnect
+sjava.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doIO(ClientCnxnSocketNIO.java:68)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:366)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-07 08:57:33,175 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x35dab0cab850028 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-07 08:57:33,177 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x15dab0c8c2c0023 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
+2017-08-07 08:57:33,448 WARN [org.apache.zookeeper.ClientCnxn] - Session 0x35dab0cab850028 for server null, unexpected error, closing socket connection and attempting reconnect
+sjava.net.SocketException: Network is unreachable: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:361)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1081)
