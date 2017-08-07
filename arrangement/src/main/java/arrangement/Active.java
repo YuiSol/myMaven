@@ -48,7 +48,6 @@ public class Active {
         System.out.println(flag);
         System.exit(flag ? 0 : 1);
 */
-        System.out.println("aaa");
         Configuration configuration = new Configuration();
 
         //获取一个job对象
