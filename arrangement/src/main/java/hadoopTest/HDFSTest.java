@@ -14,20 +14,21 @@ import java.net.URI;
 public class HDFSTest {
     private static final String URI="hdfs://192.168.1.81:9000";
     public static void main(String[] args) throws Exception{
-       select("/test/每个省份每月主叫率/0_temporary");
+        delete("/access_time.log");
+        update("D:\\3b\\access_time.log");
     }
-    public static void update()throws Exception{
+    public static void update(String path)throws Exception{
         Configuration config = new Configuration();
         //FileSystem.get(URI,配置，账号);
         FileSystem fileSystem = FileSystem.get(new URI(URI),config,"root");
-        fileSystem.copyFromLocalFile(false, new Path("D:\\buffer\\test.log"), new Path("/"));
+        fileSystem.copyFromLocalFile(false, new Path(path), new Path("/"));
         fileSystem.close();
     }
-    public static void delete()throws Exception{
+    public static void delete(String path)throws Exception{
         Configuration config = new Configuration();
         //FileSystem.get(URI,配置，账号);
         FileSystem fileSystem = FileSystem.get(new URI(URI),config,"root");
-        fileSystem.delete(new Path("/font.log"),true);
+        fileSystem.delete(new Path(path),true);
     }
     public static void down()throws Exception{
         Configuration config = new Configuration();
