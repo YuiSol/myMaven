@@ -1,5 +1,7 @@
 package datageneration.data.mydatatest.entity;
 
+import datageneration.data.mydatatest.util.StringRandom;
+
 import java.io.Serializable;
 import java.util.Random;
 
@@ -11,23 +13,42 @@ public class AuthorWork implements Serializable {
     //作者对应的编号
     private String number;
     //作品标题
+
     public AuthorWork() {
     }private String title;
     //作品对应的类别
     private String type;
     //作品阅读量
+    private int read_count =-1;
+    //作品点赞量
+    private int thumbs_count;
+    //评论量
+    private int comment_count;
     public AuthorWork(String number, String title, String type, int thumbs_count, int comment_count, int read_count) {
+        if(title==null){
+            title= StringRandom.getName(20,true);
+        }
+        if(type==null){
+            type=PART_OF[StringRandom.getNO(PART_OF.length)];
+        }
+        if(read_count<0){
+            read_count=StringRandom.getNO(1000000);
+        }
+        thumbs_count=StringRandom.getNO(read_count);
+        comment_count=StringRandom.getNO(read_count);
         this.number = number;
         this.title = title;
         this.type = type;
         this.thumbs_count = thumbs_count;
         this.comment_count = comment_count;
         this.read_count = read_count;
-    }private int read_count;
-    //作品点赞量
-    private int thumbs_count;
-    //评论量
-    private int comment_count;
+    }
+
+    public AuthorWork(String number) {
+        this.number = number;
+    }
+
+
 
     static final String PART_OF[]={"图片","实事","文化","生活"};
 

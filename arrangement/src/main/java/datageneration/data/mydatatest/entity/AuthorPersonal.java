@@ -3,6 +3,8 @@ package datageneration.data.mydatatest.entity;
 import datageneration.data.mydatatest.util.StringRandom;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by YuiSol on 2017/8/11.
@@ -17,19 +19,32 @@ public class AuthorPersonal implements Serializable {
     private  String number;
     //作者性别
     private String sex;
-
+    private List<AuthorWork> li=new ArrayList<AuthorWork>();
     public AuthorPersonal() {
         this(null,null,null,null);
     }
-
+    private String[] sexs=new String[]{"男","女"};
     public AuthorPersonal(String name, String registerTime, String number, String sex) {
         if(name==null){
             name= StringRandom.getName(6);
+        }
+        if(registerTime==null){
+            registerTime=new RegisterUserInfo().getRegisterTime();
+        }
+        if(number==null){
+            number=StringRandom.getNO();
+        }
+        if(sex==null){
+            sex=sexs[StringRandom.getNO(sexs.length)];
         }
         this.name = name;
         this.registerTime = registerTime;
         this.number = number;
         this.sex = sex;
+        int size=StringRandom.getNO(50);
+        for(int i=0;i<size;i++){
+            li.add(new AuthorWork(number));
+        }
     }
 
     @Override

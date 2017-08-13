@@ -34,7 +34,7 @@ public class RegisterUserInfoSQLDataImpl implements SQLDao<RegisterUserInfo> {
     public void addData(String sql){
        if(sql!=null){
            jdbcTemplate.update(sql);
-       }
+       } 
     }
     //预编译
     public void addData(List<RegisterUserInfo> data,String sql) {
