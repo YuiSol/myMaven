@@ -37,7 +37,7 @@ public class Article implements Serializable {
     public static int getRandomCommentCount(){
         return random.nextInt(9999);
     }
-    public static int getRandomReadCount(){
+    public static int u (){
         return random.nextInt(666);
     }
     public static String getRandomTitle(){
