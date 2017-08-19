@@ -30,7 +30,7 @@
         <property name="maxStatements">50</property>
         <property name="driverClass">com.mysql.jdbc.Driver</property>
         <property name="jdbcUrl">
-            <![CDATA[jdbc:mysql://localhost:3306/register_info?useUnicode=true&characterEncoding=UTF-8&useOldAliasMetadataBehavior=true]]>
+            <![CDATA[jdbc:mysql://localhost:3306/myhive?useUnicode=true&characterEncoding=UTF-8&useOldAliasMetadataBehavior=true]]>
         </property>
         <property name="user">root</property>
         <property name="password">123456</property>

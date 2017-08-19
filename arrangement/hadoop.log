@@ -1944,4 +1944,1891 @@ s2017-08-11 11:41:57,015 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] 
 s2017-08-11 11:41:57,017 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
 s2017-08-11 11:43:18,060 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
 s2017-08-11 11:43:18,061 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-15 15:38:58,389 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 15:39:13,243 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 15:39:28,393 WARN [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@57afb1a9 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+scom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'register_info'
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:928)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1750)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2017-08-15 15:39:28,393 WARN [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@1c0f6202 -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+scom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'register_info'
+	at sun.reflect.GeneratedConstructorAccessor5.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:928)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1750)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2017-08-15 15:39:43,086 WARN [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@3522f9dc -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+scom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'register_info'
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:928)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1750)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor7.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2017-08-15 15:39:43,103 WARN [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask@6a98d22e -- Acquisition Attempt Failed!!! Clearing pending acquires. While trying to acquire a needed new resource, we failed to succeed more than the maximum number of allowed acquisition attempts (30). Last acquisition attempt exception: 
+scom.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'register_info'
+	at sun.reflect.GeneratedConstructorAccessor6.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1054)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4237)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4169)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:928)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1750)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2493)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2526)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2311)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:834)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.GeneratedConstructorAccessor7.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:416)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:347)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:134)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:182)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:171)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:137)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1014)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$800(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$AcquireTask.run(BasicResourcePool.java:1810)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:547)
+2017-08-15 15:40:28,560 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 15:43:56,104 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 15:50:50,139 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 15:58:43,846 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 16:00:38,670 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 16:02:53,833 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 16:16:04,455 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 16:18:42,903 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 16:22:30,314 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-15 17:10:07,250 WARN [com.mchange.v2.c3p0.cfg.C3P0Config] - Unknown c3p0-config property: c3p0.testConnectionOnCheckout
+s2017-08-16 10:58:33,334 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 10:58:33,364 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 10:58:33,972 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 10:58:34,042 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 10:58:34,044 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local550597704_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:00:00,943 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:00:00,945 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:00:01,326 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:00:01,384 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:00:01,386 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local984032930_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:15,677 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:01:15,679 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:01:16,047 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:16,104 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:16,106 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local941964404_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:39,483 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:01:39,485 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:01:39,826 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:39,883 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:01:39,885 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1200388389_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:04:12,295 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:04:12,296 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:04:12,645 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:04:12,701 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:04:12,703 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1665819103_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:07:53,040 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:07:53,042 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:07:53,409 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:07:53,478 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:07:53,480 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local470737128_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:08:55,848 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:08:55,850 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:08:56,207 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:08:56,276 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:08:56,278 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local893566831_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:09:05,373 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:09:05,374 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:19:29,919 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:19:29,921 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:19:30,253 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:19:30,322 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:19:30,324 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1775041486_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:22:27,418 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:22:27,420 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:22:27,870 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:22:27,928 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:22:27,931 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1973886022_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:23:06,180 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:23:06,182 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:23:06,611 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:23:06,688 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:23:06,691 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local202809811_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:24:25,531 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:24:25,533 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:24:25,862 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:24:25,923 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:24:25,925 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2006596921_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:27:54,700 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:27:54,702 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:27:55,151 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:27:55,205 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:27:55,209 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1233462764_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:29:28,686 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:29:28,688 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:30:43,564 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:30:43,566 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:38:46,932 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:38:46,934 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:38:47,305 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:38:47,375 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:38:47,377 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local129978728_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:39:17,288 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:39:17,290 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:39:17,647 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:39:17,703 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:39:17,705 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1916786906_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:09,211 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:41:09,213 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:41:09,585 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:09,641 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:09,643 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local513011986_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:35,995 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:41:35,997 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:41:36,338 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:36,394 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:41:36,396 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2068235207_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:44:25,091 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:44:25,093 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:44:25,472 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:44:25,526 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:44:25,528 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1362287956_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:46:23,619 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:46:23,621 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:46:23,976 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:46:24,140 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:46:24,142 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local363005221_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:47:04,685 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:47:04,687 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:47:05,084 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:47:05,146 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:47:05,148 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local277062467_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:48:47,919 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:48:47,920 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 11:48:48,419 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:48:48,532 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:48:48,535 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local775872200_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 11:49:26,323 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 11:49:26,324 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:06:02,197 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:06:02,199 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:10:53,539 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:10:53,541 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:11:19,326 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:11:19,337 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:11:41,108 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:11:41,109 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:12:07,346 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:12:07,349 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:12:40,151 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:12:40,153 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:12:58,946 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:12:58,948 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:13:15,276 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:13:15,279 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:13:15,772 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2061212836_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:92)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:81)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:13:48,228 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:13:48,230 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:13:48,928 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local791730429_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:92)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:81)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:14:22,777 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:14:22,779 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:14:23,277 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local2095076865_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:94)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:81)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:15:42,279 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:15:42,281 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:15:42,790 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local382779313_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:92)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:81)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:16:38,523 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:16:38,524 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:16:39,107 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local223508619_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:94)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:81)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:27:56,147 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:27:56,149 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:46:08,493 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:46:08,495 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:46:45,059 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:46:45,061 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:47:54,003 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:47:54,006 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:48:17,944 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:48:17,945 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:51:29,133 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:51:29,134 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:52:08,491 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:52:08,493 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:53:04,143 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:53:04,145 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:54:11,608 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:54:11,610 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:54:57,457 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:54:57,458 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:55:43,674 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:55:43,676 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:55:44,368 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1029598670_0001
+sjava.lang.Exception: java.io.EOFException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:340)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589)
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564)
+	at dataclean.access_time.VisitorinfoFlush$MyData.readFields(VisitorinfoFlush.java:145)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableDeserializer.deserialize(WritableSerialization.java:71)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableDeserializer.deserialize(WritableSerialization.java:42)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKeyValue(ReduceContextImpl.java:146)
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl.nextKey(ReduceContextImpl.java:121)
+	at org.apache.hadoop.mapreduce.lib.reduce.WrappedReducer$Context.nextKey(WrappedReducer.java:302)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:170)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 12:57:14,045 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:57:14,047 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 12:59:29,702 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 12:59:29,704 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:01:51,194 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:01:51,196 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:02:31,072 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:02:31,074 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:04:10,384 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:04:10,385 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:17:36,451 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:17:36,453 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:22:49,817 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:22:49,819 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:24:04,529 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:24:04,531 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:24:14,238 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:24:14,241 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 13:25:28,263 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 13:25:28,265 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:21:26,078 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:21:26,080 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:23:55,451 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:23:55,454 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:31:23,087 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:31:23,090 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:31:45,520 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:31:45,522 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:32:32,297 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:32:32,300 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:33:01,845 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:33:01,847 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:33:39,508 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:33:39,510 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:40:28,638 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 14:40:28,640 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 14:56:53,531 WARN [org.apache.hadoop.fs.FileUtil] - Failed to delete file or dir [D:\4b\离线业务项目实战数据\数据清洗\_temporary]: it still exists.
+s2017-08-16 14:59:51,828 WARN [org.apache.hadoop.fs.FileUtil] - Failed to delete file or dir [D:\4b\离线业务项目实战数据\数据清洗]: it still exists.
+s2017-08-16 15:00:03,604 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 15:00:03,606 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 15:27:16,769 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 15:27:16,771 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 15:32:56,550 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 15:32:56,552 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 15:34:18,661 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 15:34:18,663 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 15:35:08,265 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 15:35:08,266 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:02:17,378 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1977580436_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:164)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:123)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 16:14:24,720 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:14:24,722 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:16:03,029 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local525376892_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:172)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:128)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 16:16:55,556 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:16:55,557 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:17:35,608 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local920771054_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:173)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:128)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 16:25:03,739 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:25:03,741 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:25:35,333 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:25:35,335 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:27:03,089 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local458731825_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:175)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:128)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 16:31:06,790 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:31:06,792 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:32:50,646 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:32:50,648 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:33:20,042 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:33:20,044 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:35:32,653 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local827123166_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:178)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:131)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 16:44:12,519 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:44:12,521 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:45:43,801 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:45:43,803 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:48:44,216 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:48:44,218 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:50:38,624 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:50:38,626 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:55:16,299 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:55:16,302 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 16:59:56,029 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 16:59:56,030 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:00:59,999 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:01:00,001 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:02:10,603 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:02:10,606 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:05:30,191 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:05:30,193 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:06:44,518 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1746623471_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:178)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:135)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 17:25:10,036 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:25:10,038 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:25:36,095 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:25:36,096 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:27:18,871 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:27:18,873 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:27:56,843 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:27:56,844 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 17:31:08,817 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 17:31:08,825 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:03:21,915 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:03:21,917 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:10:14,641 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:10:14,642 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:23:12,750 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:23:12,752 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:28:32,569 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:28:32,571 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:34:35,706 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:34:35,708 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:35:32,792 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:35:32,801 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:44:01,404 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:44:01,406 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 18:54:22,840 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 18:54:22,843 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:11:23,669 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:11:23,671 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:13:59,932 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:13:59,934 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:14:27,198 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:14:27,200 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:16:36,946 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:16:36,948 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:17:16,322 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:17:16,324 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:19:18,011 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:19:18,012 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:20:21,905 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:20:22,766 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:23:59,717 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:23:59,719 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:33:09,843 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:33:09,845 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:33:13,398 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1284283500_0001
+sjava.lang.Exception: java.lang.IndexOutOfBoundsException: Index: 5, Size: 1
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 5, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:114)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:79)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:33:43,190 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:33:43,192 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:33:45,454 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1446048002_0001
+sjava.lang.Exception: java.lang.IndexOutOfBoundsException: Index: 5, Size: 1
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.IndexOutOfBoundsException: Index: 5, Size: 1
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:114)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:79)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:34:13,880 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:34:13,882 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:35:56,245 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:35:56,247 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:37:54,162 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:37:54,164 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:41:13,291 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:41:13,293 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:44:02,422 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:44:02,424 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:45:52,135 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:45:52,137 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:45:52,481 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:45:52,541 WARN [org.apache.hadoop.mapred.MapTask] - Unable to initialize MapOutputCollector org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+sjava.lang.NullPointerException
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.init(MapTask.java:1008)
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:401)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:45:52,543 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1308680849_0001
+sjava.lang.Exception: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Unable to initialize any output collector
+	at org.apache.hadoop.mapred.MapTask.createSortingCollector(MapTask.java:412)
+	at org.apache.hadoop.mapred.MapTask.access$100(MapTask.java:81)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.<init>(MapTask.java:695)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:767)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:47:02,318 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:47:02,320 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:48:57,471 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:48:57,473 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:49:28,565 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:49:28,567 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:52:40,908 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:52:40,910 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:52:47,058 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1977922521_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.NullPointerException
+	at org.apache.hadoop.io.ObjectWritable$NullInstance.write(ObjectWritable.java:119)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:202)
+	at org.apache.hadoop.io.ObjectWritable.writeObject(ObjectWritable.java:128)
+	at org.apache.hadoop.io.ObjectWritable.write(ObjectWritable.java:82)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:98)
+	at org.apache.hadoop.io.serializer.WritableSerialization$WritableSerializer.serialize(WritableSerialization.java:82)
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1154)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:111)
+	at dataclean.access_time.VisitorinfoFlush$MyMapper.map(VisitorinfoFlush.java:79)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 19:54:03,449 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:54:03,450 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:55:12,973 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:55:12,976 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:55:42,650 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:55:42,652 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:56:02,903 WARN [org.apache.hadoop.fs.FileUtil] - Failed to delete file or dir [D:\4b\离线业务项目实战数据\数据清洗\_temporary]: it still exists.
+s2017-08-16 19:56:55,319 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:56:55,320 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:57:49,407 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:57:49,409 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 19:59:05,644 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 19:59:05,646 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 20:21:34,739 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 20:21:34,772 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 20:21:36,403 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1594577815_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:210)
+	at dataclean.access_time.VisitorinfoFlush$MyReducer.reduce(VisitorinfoFlush.java:158)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-16 20:33:43,081 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 20:33:43,082 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 20:49:01,848 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 20:49:01,850 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-16 20:49:57,013 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-16 20:49:57,015 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:03:45,260 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:03:45,291 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:15:54,374 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:15:54,376 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:17:03,308 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:17:03,310 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:19:34,124 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:19:34,125 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:28:44,982 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:28:44,984 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:33:37,190 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:33:37,192 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:33:38,969 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1661807532_0001
+sjava.lang.Exception: java.io.IOException: Type mismatch in value from map: expected dataclean.access_time.VisitorinfoFlush_Again$MyData, received org.apache.hadoop.io.Text
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.io.IOException: Type mismatch in value from map: expected dataclean.access_time.VisitorinfoFlush_Again$MyData, received org.apache.hadoop.io.Text
+	at org.apache.hadoop.mapred.MapTask$MapOutputBuffer.collect(MapTask.java:1074)
+	at org.apache.hadoop.mapred.MapTask$NewOutputCollector.write(MapTask.java:712)
+	at org.apache.hadoop.mapreduce.task.TaskInputOutputContextImpl.write(TaskInputOutputContextImpl.java:89)
+	at org.apache.hadoop.mapreduce.lib.map.WrappedMapper$Context.write(WrappedMapper.java:112)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyMapper.map(VisitorinfoFlush_Again.java:120)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyMapper.map(VisitorinfoFlush_Again.java:88)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:33:52,321 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:33:52,322 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:33:54,067 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1679030965_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:217)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:166)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:36:23,865 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:36:23,867 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:40:15,032 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:40:15,034 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:41:30,476 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:41:30,478 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:45:52,890 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:45:52,892 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:45:54,444 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local685381919_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:215)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:166)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:46:16,338 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:46:16,340 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:46:17,991 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1486347995_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:216)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:166)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:47:06,870 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:47:06,872 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:47:32,373 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local829497548_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:220)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:166)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:48:56,641 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:48:56,643 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:48:57,802 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1079986963_0001
+sjava.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.lang.NullPointerException
+	at java.lang.String.concat(String.java:2027)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:217)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:166)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 09:49:18,993 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:49:18,994 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 09:51:31,058 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 09:51:31,059 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:00:40,069 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:00:40,071 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:04:47,486 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:04:47,488 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:05:07,439 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:05:07,440 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:05:33,305 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:05:33,307 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:05:34,123 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local1046550550_0001
+sjava.lang.Exception: java.lang.ArrayIndexOutOfBoundsException: -1
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:522)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:418)
+	at java.util.ArrayList.get(ArrayList.java:431)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyMapper.map(VisitorinfoFlush_Again.java:115)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyMapper.map(VisitorinfoFlush_Again.java:88)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:145)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:784)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:341)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:243)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 10:06:12,433 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:06:12,435 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:07:13,971 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:07:13,973 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:07:24,415 WARN [org.apache.hadoop.mapred.LocalJobRunner] - job_local815960530_0001
+sjava.lang.Exception: java.util.NoSuchElementException: iterate past last value
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.runTasks(LocalJobRunner.java:462)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:529)
+Caused by: java.util.NoSuchElementException: iterate past last value
+	at org.apache.hadoop.mapreduce.task.ReduceContextImpl$ValueIterator.next(ReduceContextImpl.java:235)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:179)
+	at dataclean.access_time.VisitorinfoFlush_Again$MyReducer.reduce(VisitorinfoFlush_Again.java:155)
+	at org.apache.hadoop.mapreduce.Reducer.run(Reducer.java:171)
+	at org.apache.hadoop.mapred.ReduceTask.runNewReducer(ReduceTask.java:627)
+	at org.apache.hadoop.mapred.ReduceTask.run(ReduceTask.java:389)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$ReduceTaskRunnable.run(LocalJobRunner.java:319)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+2017-08-17 10:07:42,472 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:07:42,474 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:08:58,753 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:08:58,755 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:09:28,983 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:09:28,984 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:11:49,825 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:11:49,827 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:12:14,787 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:12:14,789 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:18:04,445 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:18:04,447 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:20:20,227 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:20:20,229 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 10:21:23,346 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 10:21:23,348 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:27:05,562 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:27:05,563 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:28:07,930 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:28:07,932 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:29:11,900 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:29:11,902 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:29:52,351 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:29:52,353 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:59:28,315 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:59:28,317 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 17:59:59,830 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 17:59:59,832 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:00:59,772 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:00:59,773 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:28:50,297 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:28:50,299 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:30:48,680 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:30:48,682 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:34:40,144 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:34:40,145 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:36:00,893 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:36:00,895 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:36:45,519 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:36:45,521 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 18:37:20,812 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 18:37:20,814 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-17 19:00:07,186 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+s2017-08-17 19:00:07,188 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
 s
