@@ -1,6 +1,6 @@
 package datageneration.data.order.config;
 
-import datageneration.data.code_1.day15_offlinepro.constance.ConstancePools;
+
 
 /**
  * Created by YuiSol on 2017/8/14.

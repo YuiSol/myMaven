@@ -3831,4 +3831,42 @@ s2017-08-17 18:37:20,812 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] 
 s2017-08-17 18:37:20,814 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
 s2017-08-17 19:00:07,186 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
 s2017-08-17 19:00:07,188 WARN [org.apache.hadoop.mapreduce.JobResourceUploader] - No job jar file set.  User classes may not be found. See Job or Job#setJar(String).
+s2017-08-20 11:00:52,550 WARN [kafka.consumer.ZookeeperConsumerConnector] - [413b699d-09f9-442e-8356-0d446e3b73b6_YuiSol-PC-1503198052038-c930ebe2], no brokers found when trying to rebalance.
+s2017-08-20 11:04:24,460 WARN [kafka.consumer.ZookeeperConsumerConnector] - [620344ba-d396-442d-b40c-5a6140d5cd08_YuiSol-PC-1503198264045-3001a87e], no brokers found when trying to rebalance.
+s2017-08-20 11:08:32,572 WARN [kafka.consumer.ZookeeperConsumerConnector] - [1c0c62ef-ae0b-44cf-bae5-8330cd577f74_YuiSol-PC-1503198512175-cc970304], no brokers found when trying to rebalance.
+s2017-08-20 11:11:02,421 WARN [kafka.consumer.ZookeeperConsumerConnector] - [130853fd-759a-4e68-9a3c-c44d1af13946_YuiSol-PC-1503198661971-6e170f5b], no brokers found when trying to rebalance.
+s2017-08-20 11:11:29,069 WARN [kafka.consumer.ZookeeperConsumerConnector] - [124c06e0-0897-4603-8188-2298f4bf57af_YuiSol-PC-1503198688747-8e11fef1], no brokers found when trying to rebalance.
+s2017-08-20 11:12:05,690 WARN [kafka.consumer.ZookeeperConsumerConnector] - [5db89030-dee3-45b1-8045-2f6457a5ce29_YuiSol-PC-1503198725411-423de7d2], no brokers found when trying to rebalance.
+s2017-08-20 11:12:16,423 WARN [kafka.consumer.ZookeeperConsumerConnector] - [7a3a9632-7a2e-4e16-9345-d5d48fe40832_YuiSol-PC-1503198736036-85e80b1d], no brokers found when trying to rebalance.
+s2017-08-20 11:12:27,405 WARN [kafka.consumer.ZookeeperConsumerConnector] - [7a3a9632-7a2e-4e16-9345-d5d48fe40832_YuiSol-PC-1503198736036-85e80b1d], no brokers found when trying to rebalance.
+s2017-08-20 11:12:27,426 WARN [kafka.consumer.ZookeeperConsumerConnector] - [7a3a9632-7a2e-4e16-9345-d5d48fe40832_YuiSol-PC-1503198736036-85e80b1d], no brokers found when trying to rebalance.
+s2017-08-20 11:12:27,434 WARN [kafka.consumer.ZookeeperConsumerConnector] - [7a3a9632-7a2e-4e16-9345-d5d48fe40832_YuiSol-PC-1503198736036-85e80b1d], no brokers found when trying to rebalance.
+s2017-08-20 11:12:36,832 WARN [kafka.consumer.ZookeeperConsumerConnector] - [bbcff21b-7053-4ecb-b188-84365630ea10_YuiSol-PC-1503198756413-51339abd], no brokers found when trying to rebalance.
+s2017-08-20 11:13:44,318 WARN [kafka.consumer.ZookeeperConsumerConnector] - [fb32b10d-3443-46e8-ba01-6bd76610e018_YuiSol-PC-1503198823875-d1b16e16], no brokers found when trying to rebalance.
+s2017-08-20 11:14:10,346 WARN [kafka.consumer.ZookeeperConsumerConnector] - [a22554cd-510a-4630-bc23-5caa3f3312bd_YuiSol-PC-1503198849871-541306c0], no brokers found when trying to rebalance.
+s2017-08-20 11:14:59,883 WARN [kafka.consumer.ZookeeperConsumerConnector] - [32a10acb-0b79-4812-ae7b-5d7150a1ee87_YuiSol-PC-1503198899556-be1f7978], no brokers found when trying to rebalance.
+s2017-08-20 11:15:44,798 WARN [kafka.consumer.ZookeeperConsumerConnector] - [19a5c0b1-2c33-45d3-8bc1-961a85374d7b_YuiSol-PC-1503198944448-e5bbbcea], no brokers found when trying to rebalance.
+s2017-08-20 11:16:30,685 WARN [kafka.consumer.ZookeeperConsumerConnector] - [816e7536-8e81-420e-bb6f-a016bc4a7594_YuiSol-PC-1503198990274-5cb5fb02], no brokers found when trying to rebalance.
+s2017-08-20 11:17:03,672 WARN [kafka.consumer.ZookeeperConsumerConnector] - [eab6fdd5-848e-4a9e-8542-3c111cba2844_YuiSol-PC-1503199023303-46845297], no brokers found when trying to rebalance.
+s2017-08-20 11:17:32,961 WARN [kafka.consumer.ZookeeperConsumerConnector] - [2b4376b5-390f-4dce-aa16-01773ebadf38_YuiSol-PC-1503199052576-638ec1cd], no brokers found when trying to rebalance.
+s2017-08-20 11:29:10,041 ERROR [kafka.consumer.ConsumerFetcherThread] - [ConsumerFetcherThread-7a3a9632-7a2e-4e16-9345-d5d48fe40832_YuiSol-PC-1503198736036-85e80b1d-0-3], Error for partition [urls,0] to broker 3:class kafka.common.NotLeaderForPartitionException
+s2017-08-20 11:29:10,060 ERROR [kafka.consumer.ConsumerFetcherThread] - [ConsumerFetcherThread-5db89030-dee3-45b1-8045-2f6457a5ce29_YuiSol-PC-1503198725411-423de7d2-0-3], Error for partition [urls,0] to broker 3:class kafka.common.NotLeaderForPartitionException
+s2017-08-20 11:32:22,239 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-5 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-3 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-4 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-1 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-9 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-8 for topic urls
+s2017-08-20 11:32:22,240 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-6 for topic urls
+s2017-08-20 11:32:22,242 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-2 for topic urls
+s2017-08-20 11:32:22,242 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 61b46727-f9f9-48e2-abc1-ab5044a63c31_YuiSol-PC-1503199941696-a6245d61-7 for topic urls
+s2017-08-20 12:12:18,395 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-6 for topic urls
+s2017-08-20 12:12:18,397 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-4 for topic urls
+s2017-08-20 12:12:18,397 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-8 for topic urls
+s2017-08-20 12:12:18,397 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-2 for topic urls
+s2017-08-20 12:12:18,397 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-7 for topic urls
+s2017-08-20 12:12:18,397 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-9 for topic urls
+s2017-08-20 12:12:18,398 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-5 for topic urls
+s2017-08-20 12:12:18,398 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-3 for topic urls
+s2017-08-20 12:12:18,398 WARN [kafka.consumer.RangeAssignor] - No broker partitions consumed by consumer thread 5eb23865-8654-4863-a674-715b901b7a3e_YuiSol-PC-1503202337969-6d0f3b1e-1 for topic urls
 s
