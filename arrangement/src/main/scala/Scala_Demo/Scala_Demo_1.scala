@@ -1,6 +1,6 @@
 package Scala_Demo
 
-import java.lang.String
+
 
 import scala.collection.mutable
 import scala.collection.mutable.{ListBuffer, ArrayBuffer}
@@ -215,7 +215,7 @@ import scala.util.control.Breaks
   }
 
   def test14(): Unit = {
-    val mydemo: mydemo = new mydemo("kitty", 18)
+    val mydemo:mydemo = new mydemo("kitty",10)
     //mydemo.name="a"
     mydemo.age = 12
     println(mydemo.name + mydemo.age)
@@ -267,8 +267,6 @@ import scala.util.control.Breaks
   case class Person1(name:String,age:Int){
 
   }
-  def test10(): Unit ={
-    
-  }
+
 }
 
