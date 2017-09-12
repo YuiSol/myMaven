@@ -6,6 +6,8 @@ import scala.collection.mutable
 import scala.collection.mutable.{ListBuffer, ArrayBuffer}
 import scala.util.control.Breaks
 
+
+
 /**
  * Created by YuiSol on 2017/9/8.
  */
@@ -264,6 +266,9 @@ import scala.util.control.Breaks
   }
   case class Person1(name:String,age:Int){
 
+  }
+  def test10(): Unit ={
+    
   }
 }
 
