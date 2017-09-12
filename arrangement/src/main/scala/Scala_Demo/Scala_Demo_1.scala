@@ -5,6 +5,8 @@ import java.lang.String
 import scala.collection.mutable.ArrayBuffer
 import scala.util.control.Breaks
 
+
+
 /**
  * Created by YuiSol on 2017/9/8.
  */
@@ -146,5 +148,8 @@ import scala.util.control.Breaks
     val strings: Array[String] = Array("dfas","asdf","adfa","asdfs","dasf")
      val zip: Array[((Int, String), Int)] = ints.zip(strings).zip(ints1)
     zip.foreach(x =>println(x._1._2))
+  }
+  def test10(): Unit ={
+    
   }
 }
