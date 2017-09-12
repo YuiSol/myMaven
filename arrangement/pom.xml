@@ -17,8 +17,6 @@
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
-<<<<<<< HEAD
-=======
             <artifactId>spark-streaming_2.10</artifactId>
             <version>1.6.1</version>
         </dependency>
@@ -31,29 +29,26 @@
 
         <dependency>
             <groupId>org.apache.spark</groupId>
->>>>>>> 9f38ebad8353468f73e8be0f29e09a00cefb9914
             <artifactId>spark-sql_2.10</artifactId>
             <version>1.6.1</version>
         </dependency>
         <dependency>
-<<<<<<< HEAD
-=======
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
             <version>1.5</version>
         </dependency>
 
 
-        <dependency>
-            <groupId>org.json4s</groupId>
-            <artifactId>json4s-jackson_2.10</artifactId>
-            <version>3.2.11</version>
-        </dependency>
-        <dependency>
-            <groupId>org.json4s</groupId>
-            <artifactId>json4s-native_2.10</artifactId>
-            <version>3.2.11</version>
-        </dependency>
+        <!-- <dependency>
+           <groupId>org.json4s</groupId>
+           <artifactId>json4s-jackson_2.10</artifactId>
+           <version>3.2.11</version>
+       </dependency>
+       <dependency>
+           <groupId>org.json4s</groupId>
+           <artifactId>json4s-native_2.10</artifactId>
+           <version>3.2.11</version>
+       </dependency>-->
 
 
 
@@ -61,7 +56,6 @@
 
 
         <dependency>
->>>>>>> 9f38ebad8353468f73e8be0f29e09a00cefb9914
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
