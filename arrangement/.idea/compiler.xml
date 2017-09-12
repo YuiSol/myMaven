@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="arrangement" />
+        <module name="yuisol" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="arrangement" target="1.5" />
+      <module name="yuisol" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
