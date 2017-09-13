@@ -21,8 +21,10 @@ D:\solt\java\jre\lib\charsets.jar;D:\solt\java\jre\lib\deploy.jar;D:\solt\java\j
 ..\src\main\scala\kafka\KafkaConsumer_Demo.scala -> classes\kafka\KafkaConsumer_Demo$$anonfun$kafkaConsumer$1$$anon$1.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$3.class
+..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$8$$anonfun$apply$2.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$4.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$1.class
+..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$8.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$2.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$7.class
 ..\src\main\scala\spark\TransformationDemo.scala -> classes\spark\TransformationDemo$$anonfun$7$$anonfun$apply$1.class
