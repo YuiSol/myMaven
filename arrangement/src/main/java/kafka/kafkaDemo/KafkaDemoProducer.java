@@ -16,6 +16,6 @@ public class KafkaDemoProducer {
         properties.put("serializer.class","kafka.serializer.StringEncoder");
         Producer producer = new Producer(new ProducerConfig(properties));
         KeyedMessage keyedMessage = new KeyedMessage("urls", "mysqasdfl");
-        producer.send(keyedMessage);
+        producer.send(keyedMessage)
     }
 }

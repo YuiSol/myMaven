@@ -4,6 +4,7 @@ import java.util
 import java.util.HashMap
 import java.util.{UUID, Properties}
 
+import scala.collection.JavaConverters._
 import kafka.consumer.{ConsumerIterator, KafkaStream, Consumer, ConsumerConfig}
 import kafka.javaapi.consumer.ConsumerConnector
 import kafka.message.MessageAndMetadata
