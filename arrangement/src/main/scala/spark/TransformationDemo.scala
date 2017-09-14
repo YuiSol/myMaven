@@ -54,7 +54,9 @@ object TransformationDemo {
   }
   def mapPartitionDemo1(sc : SparkContext)= {
     val rdd: RDD[Int] = sc.parallelize(Array(1,2,3,4,6,7,93,2,32,54,3,546,3,345,1,3))
+
     val rdd1: RDD[Int] = rdd.mapPartitions(x =>x.map(x=>x*100))
+
     println(rdd1.collect().toBuffer)
   }
 }
