@@ -30,6 +30,7 @@ object SparkDemo1 {
       iter.toList.map(x => {
         (x._1, x._2._1 + x._2._2)
       }).iterator
+
     }).sortBy(_._2)
     println(rdd4.collect().toBuffer)
   }

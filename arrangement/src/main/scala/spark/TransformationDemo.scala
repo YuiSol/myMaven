@@ -21,6 +21,7 @@ object TransformationDemo {
     val rdd2: RDD[Int] = rdd.map(x => x * 100)
     val rdd1: RDD[Int] = rdd2.filter(x =>x%200==0)
     println(rdd1.collect().toBuffer)
+
   }
   def flatMapDemo(sc : SparkContext): Unit ={
     val strings: List[Array[String]] = List(Array("a","b","c"),Array("a","c","d"),Array("d","a","n"),Array("b","a","c","n","n","n","n","n"))

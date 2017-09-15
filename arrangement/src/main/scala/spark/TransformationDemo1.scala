@@ -12,10 +12,18 @@ object TransformationDemo1 {
     union
   }
   def union(): Unit ={
+
     val rdd1: RDD[Int] = sc.parallelize(List(1,2,3,4))
-    val rdd2: RDD[Int] = sc.parallelize(List(2,3,5,5,23,32,42,31,123,5,21,54,6))
-    sc.parallelize()
+    val rdd2: RDD[Int] = sc.parallelize(List(2,3,5,5,23,32))
+    val rdd4: RDD[(String, Int)] = sc.parallelize(List("one","two","three","four")).zip(rdd1)
+    val rdd5: RDD[(String, Int)] = sc.parallelize(List("one","two","three","four","five","six")).zip(rdd2)
+    //交集
+    println(rdd1.intersection(rdd2).collect().toBuffer)
     val rdd3: RDD[Int] = rdd1.union(rdd2)
     println(rdd3.collect().toBuffer)
+
+    println(rdd5.leftOuterJoin(rdd4).collect().toBuffer)
+    println(rdd5.rightOuterJoin(rdd4).collect().toBuffer)
+    println(rdd5.fullOuterJoin(rdd4).collect().toBuffer)
   }
 }
