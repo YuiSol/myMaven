@@ -31,7 +31,7 @@ object SparkDemo {
     context.stop()
   }
   def demo1_1(){
-    val context: SparkContext = new SparkContext(new SparkConf().setAppName(this.getClass.getName).setMaster("local"))
+    val context: SparkContext = new SparkContext(new SparkConf().setAppName(this.getClass.getName).setMaster("local[2]"))
     val key: RDD[(String, Int)] = context.textFile("D:\\3b\\part-r-00000").flatMap(_.split("\\|")).map((_,1)).reduceByKey(_+_)
     println(key.collect.toBuffer)
     context.stop()

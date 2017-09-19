@@ -15,8 +15,8 @@ import java.util.UUID;
 public class VisitorInfo {
     private String valid;
     private String remote_address;
-    private String remote_user;
-    private String time_local;
+    private String ;
+    private String time_loremote_usercal;
     private String request;
     private String status;
     private String body_bytes_sent;
