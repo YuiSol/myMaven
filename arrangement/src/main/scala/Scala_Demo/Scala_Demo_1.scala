@@ -2,6 +2,7 @@ package Scala_Demo
 
 
 
+
 import scala.collection.mutable
 import scala.collection.mutable.{ListBuffer, ArrayBuffer}
 import scala.util.control.Breaks
@@ -24,7 +25,14 @@ import scala.util.control.Breaks
   val name = "yuisol"
   private val age = 13
   println("这是一个先运行的方法")
-
+  implicit def Scala_Demo_1Computer  =new Ordering[Scala_Demo_1]{
+    override def compare(x: Scala_Demo_1,y :Scala_Demo_1): Int = {
+      if (x.age-y.age>0)
+        1
+      else if(x.age-y.age<0) -1
+      else 0
+    }
+  }
   def test1(): Unit = {
     println("这是方法")
   }
@@ -77,7 +85,17 @@ import scala.util.control.Breaks
     println(person.name)
   }
   def main(args: Array[String]) {
-    start()
+   /* start()*/
+    val strings = ListBuffer[String]("a")
+    strings.++=(List[String]("b"))
+    strings.+=("c")
+    strings.foreach(println(_))
+
+   /* var demoes = ListBuffer(new Scala_Demo_1("a",2),new Scala_Demo_1("a",1),new Scala_Demo_1("a",3))
+    import Scala_Demo_1.Scala_Demo_1Computer
+    var sorted: ListBuffer[Scala_Demo_1] = demoes.sortBy(x=>x)
+    println(sorted.toBuffer)
+    println(demoes.toBuffer)*/
   }
 
   def test2(): ArrayBuffer[Int] = {
@@ -261,8 +279,17 @@ import scala.util.control.Breaks
   }
 
   class Scala_Demo_1 {
-    val sex = "男"
+    var sex = "男"
+    var age=0
     private val contory = "广州"
+    def this(sex:String,age:Int){
+      this()
+      this.sex=sex
+      this.age=age
+    }
+    override def toString: String = {
+        this.sex + "\t" + this.age
+    }
   }
   case class Person1(name:String,age:Int){
 

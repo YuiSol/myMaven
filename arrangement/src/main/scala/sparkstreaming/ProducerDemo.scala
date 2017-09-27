@@ -2,15 +2,18 @@ package sparkstreaming
 
 import java.util.{UUID, Properties}
 
-import com.alibaba.fastjson.JSON
-import kafka.producer.{KeyedMessage, ProducerConfig, Producer}
+
+import kafka.javaapi.producer.Producer
+import kafka.producer.{KeyedMessage, ProducerConfig}
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
 import org.json4s._
 import org.json4s.JsonDSL._
 import org.json4s.jackson.JsonMethods._
 
+
 import scala.collection.mutable
+import scala.collection.mutable.ArrayBuffer
 
 /**
  * Created by Administrator on 2017/9/18.
@@ -26,14 +29,16 @@ object ProducerDemo {
     val properties: Properties = new Properties()
     properties.put("metadata.broker.list","dfs-node01:9092,dfs-node02:9092,dfs-node03:9092")
     properties.put("serializer.class","kafka.serializer.StringEncoder")
-    val producer: Producer[String, String] = new Producer[String,String](new ProducerConfig(properties))
-    val file: RDD[String] = context.textFile("D:\\resoures\\大数据\\实时业务数据\\day08_sparkStreaming 日志处理\\logs\\click_flow1.log")
-    file.foreach(x=>{
+    val producer: Producer[String, String] = new Producer(new ProducerConfig(properties))
+    val file: RDD[String] = context.textFile("F:\\zhengyuelai\\大数据\\实时业务数据\\day08_sparkStreaming 日志处理\\logs\\click_flow1.log")
+    val map: RDD[Click_Flow] = file.map(x => {
       val data: Array[String] = x.split("\t")
-      val flow: Click_Flow = new Click_Flow(data(0),data(1),(data(2).toLong,data(3).toLong))
+      new Click_Flow(data(0), data(1), (data(2).toLong, data(3).toLong))
+    })
+    val buffer: mutable.Buffer[Click_Flow] = map.collect().toBuffer
+    buffer.foreach(flow=>{
       val json: JsonAST.JObject = ("date" -> flow.date)~( "ip" -> flow.ip)~("flowTuple" ->(("upTuple" -> flow.flowTuple._1)~ ("downTyple" -> flow.flowTuple._2)))
-      val compact1: String = compact(render(json))
-      val keyedMessage: KeyedMessage[String, String] = new KeyedMessage[String, String]("kafkademo",compact1)
+      val keyedMessage: KeyedMessage[String, String] = new KeyedMessage[String, String]("urls",compact(render(json)))
       producer.send(keyedMessage)
     })
 

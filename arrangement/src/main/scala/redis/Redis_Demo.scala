@@ -3,7 +3,7 @@ package redis
 import java.lang.{Long, Boolean}
 import java.util
 
-import redis.clients.jedis.{BinaryClient, Jedis}
+import redis.clients.jedis.{Tuple, BinaryClient, Jedis}
 import scala.collection.JavaConverters._
 import scala.collection.mutable
 
@@ -14,13 +14,32 @@ import scala.collection.mutable
 object Redis_Demo {
   def main(args: Array[String]): Unit = {
     val jedis: Jedis = new Jedis("192.168.1.81",6379)
+
+    val keys= jedis.keys("*").asScala.toBuffer
+    println(keys)
+    List
+    println(jedis.zscore("total_category_count","88872688376155337680")+"==================")
+    val iterator= jedis.zrangeWithScores("total_category_count",0,-1).asScala
+    jedis.rpush("a","a")
+
+  /*  while (iterator.hasNext){
+      val next = iterator.next()
+      println(next.getScore)
+
+    }*/
+   /*
+
+    jedis.zrange("total_category_count",0,-1).toArray().foreach(x=>println(x))*/
+    /*for(i<-keys){
+      jedis.del(i)
+    }*/
   /*  redis_demo1(jedis)
     redis_demo2(jedis)*/
     /*redis_demo3(jedis)*/
    /* redis_demo4(jedis)*/
     /*redis_demo5(jedis)*/
     /*redis_demo6(jedis)*/
-    redis_demo7(jedis)
+    /*redis_demo7(jedis)*/
    /* val scala: mutable.Set[String] = jedis.keys("*").asScala*/
    /* scala.foreach(x=>if(x=="s")jedis.del(x))*/
    /* scala.foreach(x=>println(x))
@@ -89,7 +108,7 @@ object Redis_Demo {
     jedis.del("myhash")
     val hset: Long = jedis.hset("myhash","one","!11")
     println(hset)
-    println(jedis.hget("myhash","fist"))
+    val hget: String = jedis.hget("myhash","fist")
     println(jedis.hget("myhash","china"))
     println(jedis.hget("xxx","aas"))
     val map: util.HashMap[String, String] = new util.HashMap[String,String]()

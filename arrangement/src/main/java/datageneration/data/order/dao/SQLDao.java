@@ -9,7 +9,7 @@ public interface SQLDao<T> {
     List<T> select(String sql,T t);
     List<T> select (String before_time,String after_time,T t);
     void insert(String sql,List<T> t);
-    void update(String sql);
     void insert(List<T> t);
+    void update(String sql);
 
 }

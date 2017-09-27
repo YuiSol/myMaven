@@ -5,7 +5,7 @@
       <parameters>
         <parameter value="-make:transitive" />
         <parameter value="-dependencyfile" />
-        <parameter value="D:\resoures\idea\myMaven\arrangement\target/.scala_dependencies" />
+        <parameter value="F:\zhengyuelai\大数据\git\myMaven\arrangement\target/.scala_dependencies" />
       </parameters>
     </profile>
   </component>

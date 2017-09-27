@@ -16,7 +16,7 @@ public class HDFSTest {
     public static void main(String[] args) throws Exception{
         /*delete(("/log/log/t_origin_1.log"));
         update("D:\\4b\\离线业务项目实战数据\\数据清洗\\t_origin_1.log");*/
-        down("/log/log");
+        delete("/root");
     }
     public static void update(String path)throws Exception{
         Configuration config = new Configuration();
